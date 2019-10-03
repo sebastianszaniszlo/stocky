@@ -1,0 +1,34 @@
+{
+  "name": "stocky",
+  "version": "1.0.0",
+  "description": "Stock trading multiplayer game",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianszaniszlo/stocky.git"
+  },
+  "author": "Sebastian Szaniszlo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastianszaniszlo/stocky/issues"
+  },
+  "homepage": "https://github.com/sebastianszaniszlo/stocky#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.1",
+    "@types/mongoose": "^5.5.18",
+    "nodemon": "^1.19.3",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
